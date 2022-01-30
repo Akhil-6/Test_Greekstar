@@ -3,7 +3,7 @@
 
 var num1 = 0;
 var num2 = 1;
-var num3 = prompt("enter a num  ex:1,2,3.." );
+var num3 = prompt("enter a num " );
 num3 = parseInt(num3);
 var num4;
 if (isNaN(num3)||num3<=0){
@@ -30,7 +30,7 @@ else{
 
 //Question -> 2 '1' to 'n' prime numberes
 
-var n = prompt("enter a num" );
+var n = prompt("enter a num " );
 n = parseInt(n);
 var str ="";
 if(isNaN(n)||n<=1){
